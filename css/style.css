@@ -1,0 +1,190 @@
+@charset "utf-8";
+/* CSS Document */
+
+@import url('fonts.css');
+
+html, body {
+    margin: 0; 
+    padding: 0;
+    overflow-x: hidden; 
+}
+
+body, body * {
+    font-family: Lato-Regular; 
+}
+
+article:nth-child(n+2) {
+    margin-top: 150px;
+}
+.container {
+    margin: 100px auto; 
+}
+.naglowek {
+	background: url(../img/inne/iceberg.jpg) no-repeat center;
+    background-size: cover; 
+	color:#FFF;
+    height: 100vh; 
+    font-weight: bold;
+    text-shadow: 3px 3px 4px #000; 
+    text-align: center; 
+    font-size: 4.5vmin; 
+    line-height: 9vmin;
+}
+.naglowek #EoW {
+    position:absolute;
+    bottom: 70px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.naglowek #imie {
+    padding-top: 50px; 
+    font-family: Lato-BoldItalic;
+    font-size: 6vmin;
+}
+
+.naglowek div.fbEnd {
+    position:absolute; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    margin: auto; 
+    font-size: 7vmin; 
+}
+
+.naglowek div.fbEnd div {
+    font-family: Lato-Heavy; 
+}
+
+h2 {
+	background-color: #E1E1E1;
+	padding: 30px 0 15px;
+	border-bottom: solid thick #999;
+    margin-top: 150px;
+	
+}
+.tagi {
+    overflow: hidden; 
+}
+.tagi ul, .tagi ul li {
+    list-style: none; 
+    display: block;
+    overflow: hidden; 
+    padding: 0px;
+}
+
+.tagi ul li {
+	float: left;
+	background-color: grey;
+	padding: 2px 6px;
+	margin-right: 6px;
+	font-size: 12px;
+	color: white;
+}
+
+img {
+	*margin: 20px auto 10px;	
+}
+
+.cien img {
+	box-shadow: 7px 7px 10px #888888;
+}
+
+.os-animation {
+    opacity: 0; 
+}
+
+.os-animation.animated {
+    opacity: 1; 
+}
+
+.img-responsive {
+    max-width: 90%; 
+}
+
+a.siteLink, a.siteLink:hover {
+	text-decoration: none;
+	color: #808080;
+	line-height: 40px;
+}
+
+.opisP {
+    padding: 50px 0px; 
+}
+
+.zlecenieOd {
+    font-size: 12px;
+    color: #808080;
+}
+
+hr {
+	width: 90%;
+	max-width: 1200px;
+	margin-top: 50px;
+}
+
+.twentytwenty-overlay {
+    display: none; 
+}
+
+.twentytwenty-container {
+    max-width: 500px; 
+    margin: 0 auto;
+}
+
+@media screen and (min-width: 360px) {
+    #videoediting iframe {
+		width: 328px;
+		height: 184px;
+		margin-bottom: 15px;
+	}
+}
+@media screen and (min-width: 414px) {
+    #videoediting iframe {
+		width: 382px;
+		height: 216px;
+		margin-bottom: 15px;
+	}
+}
+
+@media screen and (min-width: 576px) {
+    #videoediting iframe {
+		width: 544px;
+		height: 306px;
+		margin-bottom: 15px;
+	}
+}
+@media screen and (min-width: 768px) {
+    #videoediting iframe {
+		width: 720px;
+		height: 405px;
+		margin-bottom: 20px;
+	}
+}
+
+@media screen and (min-width: 992px) {
+    #videoediting iframe {
+		width: 455px;
+		height: 255px;
+	}
+}
+
+@media screen and (min-width: 1200px) {
+    #videoediting iframe {
+		width: 555px;
+		height: 310px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

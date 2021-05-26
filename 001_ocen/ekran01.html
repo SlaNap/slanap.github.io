@@ -1,0 +1,83 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Ekran 01</title>
+<link rel="stylesheet" type="text/css" href="styles/my_style.css">
+<script src="js/my_skrypt.js"></script>
+<meta name="viewport" content="width=320, height=480">
+</head>
+<body id="body">
+	
+
+<div id="full_scr">
+		
+
+    	<div class="header">
+        	<div id="logo">
+        		<a href="#"><img src="images/logo_ocen.png" alt="Logo oceń.tv"/></a>
+            </div>
+            <div id="menu_button">
+            	<a id="m_button" href="#"><img src="images/iko_menu.png" alt="Menu" /></a>
+            </div>
+        </div>
+        <div id="menu">
+            	<ul>
+                	<li><a href="#"><img src="images/iko_m_log.png"/><span>Logowanie</span></a></li>
+                    <li><a href="#"><img src="images/iko_m_rej.png"/><span>Rejestracja</span></a></li>
+                    <li><a href="#"><img src="images/iko_m_ust.png"/><span>Ustawienia</span></a></li>      
+                </ul>
+        </div>
+
+    
+	<div id="container_fixed">
+    	<div id="bg2">
+    	</div>
+        <div id="lines_e1">
+        	<img src="images/lines_e1.png"/>
+        </div>
+        <form action="#" method="post">
+        	<div id="login" class="login small">
+				<input id="login_in" type="text" name="login"	value="Login" />
+            </div>
+            <div id="haslo" class="haslo small">
+            	<input id="haslo_in" type="text" name="haslo" value="Hasło"/>
+            </div>
+            <div id="pamietaj">
+            	<input type="checkbox" name="pamietaj" value="pamietaj" checked="checked" id="cl"/>
+                <label for="cl"><span></span></label>
+                <div>Pamiętaj<br />mnie</div>
+            </div>  
+            <a id="ocen" href="#"><img src="images/circle_ocen.png" alt="Oceń" /></a>
+            <a id="zaloguj" href="#"><img src="images/circle_zaloguj.png" alt="zaloguj"/><span>Zaloguj</span></a>
+            <a id="button_ok"><img src="images/button_ok.png"/></a>
+            <div id="pass_recover">
+            	<a href="#"><img src="images/circle_key.png" /></a>
+                <div>Odzyskaj<br />hasło</div>
+            </div>            
+            <div id="register">
+            	<a href="#"><img src="images/circle_register.png" /></a>
+                <div>Zarejestruj się</div>
+            </div>
+        </form>
+        <div class="komunikaty">
+        	<div id="kom_green" class="kg_off">
+            	<div class="k_content">
+					<p>Tytuł komunikatu</p>
+                	<p>Treść komunikatu Lorem ipsum dolor sit amet enim. Etiam ullamcorper.</p>
+                </div>
+                <a href="#" onclick="kg_off()"><img src="images/m_green_c.png"/></a>
+            </div>
+            <div id="kom_red" class="kr_off">
+            	<div class="k_content">
+					<p>Tytuł komunikatu</p>
+                	<p>Treść komunikatu Lorem ipsum dolor sit amet enim. Etiam ullamcorper.</p>
+                </div>
+				<a href="#" onclick="kr_off()"><img src="images/m_red_c.png"/></a>
+
+            </div>
+        </div>
+	</div>
+</div>
+</body>
+</html>
